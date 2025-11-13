@@ -1,0 +1,369 @@
+@charset "utf-8";
+@import url("../resources/Open_Sans/OpenSans-Regular.ttf");
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+html, body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(95, 102, 124);
+    height: 100px;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav a:hover {
+    background-color: rgb(63, 73, 107);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.cellphone {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(95, 102, 124);
+}
+
+.phone-image {
+    width: 80%;
+    height: auto;
+    margin-left: 260px;
+}
+
+.phone-content {
+    width: 50%;
+    padding: 20px;
+    margin-right: 400px;
+}
+
+.phone-content h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 48px;
+    color: white;
+}
+
+.phone-content .white {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    color: white;
+    line-height: 1.5;
+    margin-top: 20px;
+}
+
+.phone-content .gray {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: rgb(200, 200, 200);
+    line-height: 1.5;
+    margin-top: 20px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.buttons .color-button {
+    background: linear-gradient(to bottom, #4da9f0, #1e88e5); /* degradado azul */
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px; /* forma ovalada */
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6); /* sombra suave */
+    transition: all 0.3s ease;
+    text-decoration: none;
+    height: 25px;
+}
+
+.buttons .color-button:hover {
+    background: linear-gradient(to bottom, #1e88e5, #4da9f0); /* invertir degradado al pasar el mouse */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8); /* sombra más pronunciada al pasar el mouse */
+    transform: translateY(-3px); /* efecto de elevación al pasar el mouse */
+}
+
+.buttons .nocolor-button {
+    color: white;
+    border: none;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 13px;
+}
+
+.dummys {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(240, 240, 240);
+    height: 100px;
+}
+
+.dummys a:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.functions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    height: 600px;
+    gap: 50px;
+    padding: 20px;
+}
+
+.functions .function {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+}
+
+.function h2 {
+    font-size: 24px;
+    color: rgb(50, 50, 50);
+    margin-top: 15px;
+}
+
+.function p {
+    font-size: 16px;
+    color: rgb(100, 100, 100);
+    margin-top: 10px;
+    width: 300px;
+}   
+
+.function a {
+    background: linear-gradient(to bottom, #4da9f0, #1e88e5); /* degradado azul */
+    text-decoration: none;
+    width: 85px;
+    height: 50px;
+    color: white;
+    border: none;
+    font-weight: bolder;
+    border-radius: 10px; /* forma ovalada */
+    cursor: pointer;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6); /* sombra suave */
+    transition: all 0.3s ease;
+    font-size: 19px;
+}
+
+.function a:hover {
+    background: linear-gradient(to bottom, #1e88e5, #4da9f0); /* invertir degradado al pasar el mouse */
+    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.8); /* sombra más pronunciada al pasar el mouse */
+    transform: translateY(-3px); /* efecto de elevación al pasar el mouse */
+}
+
+.cellphones {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 600px;
+    gap: -20px;
+}
+
+.cellphones .erda {
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6); /* sombra suave */
+    transition: all 0.3s ease;
+}
+
+.cellphones .erda:hover {
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 3); /* sombra suave */
+    transform: translateY(-3px);
+}
+
+.int-tw {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    height: 600px;
+    gap: 50px;
+    padding: 20px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.info img {
+    border-radius: 5%;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 6); /* sombra suave */
+}
+
+.info2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.info2 p {
+    font-size: 16px;
+    color: rgb(100, 100, 100);
+    margin-top: 10px;
+    width: 450px;
+    font-weight: bolder;
+}
+
+.int a, .tw a {
+    color: rgb(9, 131, 131);
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.int {
+    height: 70%;
+}
+
+.tw {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    height: 70%;
+    margin-right: 50px;
+}
+
+.tw p {
+    font-size: 16px;
+    color: rgb(100, 100, 100);
+    margin-top: -10px;
+    width: 450px;
+    font-weight: bolder;
+}
+
+.tw h3 {
+    font-size: 12px;
+    color: rgb(100, 100, 100);
+    margin-top: -7px;
+}
+
+hr {
+    border: 1px solid rgb(200, 200, 200);
+    width: 85%;
+}    
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(240, 240, 240);
+    height: 100px;
+    gap: 20px;
+}
+
+.arroba {
+    font-size: 16px;
+    color: rgb(100, 100, 100);
+}
+
+.enlaces {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+/* MEDIA QUERIES */
+
+@media (min-width: 921px) and (max-width: 1279px) {
+
+    body {
+        width: 125%;
+    }
+
+    .header {
+        width: 125%;
+    }
+
+    nav a {
+        font-size: 18px;
+    }
+
+    .logo img {
+        width: 60%;
+    }
+
+    .cellphone {
+        width: 125%;
+    }
+
+    .phone-image img {
+        width: 300px;
+        margin-left: -20px;
+    }
+
+    .phone-content {
+        margin-left: 222px;
+    }
+
+    .phone-content h1 {
+        font-size: 40px;
+    }
+
+    .phone-content .white, .phone-content .gray {
+        font-size: 18px;
+        width: 400px;
+    }
+
+    .buttons .color-button {
+        font-size: 20px;
+        width: 130px;
+        height: 50px;
+        text-align: center;
+    }
+
+    .buttons .nocolor-button {
+        display: flex;
+        gap: 10px;
+        font-size: 25px;
+        width: 400px;
+    }
+
+    .buttons .nocolor-button img {
+        width: 15%;
+        height: 35px;
+    }
+
+    .dummys {
+        width: 125%;
+    }
+
+    .dummys img {
+        width: 75%;
+    }
+
+    .functions {
+        margin-left: 240px;
+        gap: 250px;
+    }
+
+    
+}
