@@ -477,11 +477,11 @@ hr {
         width: 100%;
     }
     
-    .acompañante {
+    .c {
         margin: 20px 0 0 15px;
     }
     
-    .acompañante + h2 {
+    .c + h2 {
         font-size: 22px;
         margin-left: 8px;
     }
@@ -560,7 +560,7 @@ hr {
         gap: 10px;
     }
 
-    .acompañante,
+    .c,
     .shape03,
     .shape04 {
         width: 25px;
@@ -688,11 +688,11 @@ hr {
         width: 100%;
     }
     
-    .acompañante {
+    .c {
         margin: 20px 0 0 15px;
     }
     
-    .acompañante + h2 {
+    .c + h2 {
         font-size: 22px;
         margin-left: 8px;
     }
@@ -776,7 +776,7 @@ hr {
         gap: 10px;
     }
 
-    .acompañante,
+    .c,
     .shape03,
     .shape04 {
         width: 25px;
