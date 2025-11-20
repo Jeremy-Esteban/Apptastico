@@ -187,12 +187,12 @@ nav a:hover {
     gap: -20px;
 }
 
-.cellphones .erda {
+.cellphones .yeah {
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6); /* sombra suave */
     transition: all 0.3s ease;
 }
 
-.cellphones .erda:hover {
+.cellphones .yeah:hover {
     box-shadow: 0 3px 5px rgba(0, 0, 0, 3); /* sombra suave */
     transform: translateY(-3px);
 }
@@ -317,7 +317,7 @@ hr {
 
     .phone-image img {
         width: 300px;
-        margin-left: -19px;
+        margin-left: -22px;
     }
 
     .phone-content {
@@ -366,4 +366,424 @@ hr {
     }
 
     
+}
+@media (min-width: 481px) and (max-width: 768px) {
+    /* Eliminar espacios blancos globales */
+    html, body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden; /* Previene scroll horizontal */
+    }
+    
+    .header {
+        padding: 15px 10px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+    nav {
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    nav a {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+
+    .cellphone {
+        padding: 20px 15px;
+        width: 100%;
+        box-sizing: border-box;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .phone-image {
+        width: 70%;
+        margin: 0 auto;
+        max-width: 300px;
+    }
+    
+    .phone-content {
+        width: 100%;
+        margin: 0;
+        padding: 20px 10px;
+        box-sizing: border-box;
+    }
+    
+    .phone-content h1 {
+        font-size: 26px;
+        margin: 10px 0;
+    }
+    
+    .phone-content .white,
+    .phone-content .gray {
+        font-size: 14px;
+        margin: 10px 0;
+        line-height: 1.4;
+    }
+    
+    .buttons {
+        flex-direction: column;
+        gap: 12px;
+        width: 100%;
+        align-items: center;
+    }
+    
+    .color-button {
+        padding: 10px 20px;
+        font-size: 14px;
+        width: 200px;
+        text-align: center;
+    }
+    
+    .dummys {
+        padding: 15px 10px;
+        width: 100%;
+        box-sizing: border-box;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    
+    .dummys img {
+        max-height: 35px;
+        max-width: 100px;
+    }
+    
+    .functions {
+        padding: 30px 15px;
+        width: 100%;
+        box-sizing: border-box;
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+    
+    .function {
+        width: 45%;
+        min-width: 140px;
+    }
+    
+    .function h2 {
+        font-size: 18px;
+        margin: 8px 0;
+    }
+    
+    .function p {
+        font-size: 12px;
+        line-height: 1.3;
+        margin: 5px 0;
+        width: 100%;
+    }
+    
+    .acompañante {
+        margin: 20px 0 0 15px;
+    }
+    
+    .acompañante + h2 {
+        font-size: 22px;
+        margin-left: 8px;
+    }
+    
+    .cellphones {
+        flex-direction: row;
+        align-items: center;
+        padding: 30px 15px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+    .erda {
+        max-width: 280px;
+        width: 90%;
+        margin: 10px 0;
+    }
+    
+    .int-tw {
+        padding: 30px 15px;
+        width: 100%;
+        box-sizing: border-box;
+        flex-direction: row;
+    }
+    
+    .int, .tw {
+        width: 100%;
+        margin: 0;
+    }
+    
+    .int h2, .tw h2 {
+        font-size: 22px;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .info {
+        flex-direction: row;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .info2 {
+        width: 100%;
+    }
+    
+    .info2 h3 {
+        font-size: 15px;
+    }
+    
+    .info2 p,
+    .tw p {
+        font-size: 12px;
+        width: 100%;
+        max-width: 300px;
+        margin: 8px auto;
+        line-height: 1.3;
+    }
+    
+    .footer {
+        padding: 20px 10px;
+        width: 100%;
+        box-sizing: border-box;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .arroba h3 {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .enlaces {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .acompañante,
+    .shape03,
+    .shape04 {
+        width: 25px;
+        height: 25px;
+    }
+    
+    * {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 352px) and (max-width: 480px) {
+    /* Eliminar espacios blancos globales */
+    html, body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden; /* Previene scroll horizontal */
+    }
+    
+    .header {
+        flex-direction: column;
+        padding: 15px 10px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .logo img {
+        width: 60%;
+        height: auto;
+    }
+    
+    nav {
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .navegacion a {
+        font-size: 12px;
+        padding: 3px 12px;
+    }
+
+    .cellphone {
+        padding: 20px 15px;
+        width: 100%;
+        box-sizing: border-box;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .phone-image {
+        width: 70%;
+        margin: 0 auto;
+        max-width: 300px;
+    }
+    
+    .phone-content {
+        width: 100%;
+        margin: 0;
+        padding: 20px 10px;
+        box-sizing: border-box;
+    }
+    
+    .phone-content h1 {
+        font-size: 26px;
+        margin: 10px 0;
+    }
+    
+    .phone-content .white,
+    .phone-content .gray {
+        font-size: 14px;
+        margin: 10px 0;
+        line-height: 1.4;
+    }
+    
+    .buttons {
+        flex-direction: column;
+        gap: 12px;
+        width: 100%;
+        align-items: center;
+    }
+    
+    .color-button {
+        padding: 10px 20px;
+        font-size: 14px;
+        width: 200px;
+        text-align: center;
+    }
+    
+    .dummys {
+        padding: 5px 10px;
+        width: 100%;
+        box-sizing: border-box;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    
+    .dummys img {
+        max-height: 35px;
+        max-width: 100px;
+    }
+    
+    .functions {
+        padding: 30px 15px;
+        width: 100%;
+        box-sizing: border-box;
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+    
+    .function {
+        width: 45%;
+        min-width: 140px;
+    }
+    
+    .function h2 {
+        font-size: 18px;
+        margin: 8px 0;
+    }
+    
+    .function p {
+        font-size: 12px;
+        line-height: 1.3;
+        margin: 5px 0;
+        width: 100%;
+    }
+    
+    .acompañante {
+        margin: 20px 0 0 15px;
+    }
+    
+    .acompañante + h2 {
+        font-size: 22px;
+        margin-left: 8px;
+    }
+    
+    .cellphones {
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 15px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+    .erda {
+        max-width: 280px;
+        width: 90%;
+        margin: 10px 0;
+    }
+    
+    .int-tw {
+        padding: 30px 15px;
+        width: 100%;
+        box-sizing: border-box;
+        flex-direction: column;
+    }
+    
+    .int, .tw {
+        width: 100%;
+        margin: 0;
+    }
+    
+    .int h2, .tw h2 {
+        font-size: 22px;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .info {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .info2 {
+        width: 100%;
+    }
+    
+    .info2 h3 {
+        font-size: 15px;
+    }
+
+    .info img{
+        margin-left: 100px;
+        width: 35%;
+    }
+    
+    .info2 p,
+    .tw p {
+        font-size: 12px;
+        width: 100%;
+        max-width: 300px;
+        margin: 8px auto;
+        line-height: 1.3;
+    }
+    
+    .footer {
+        padding: 20px 10px;
+        width: 100%;
+        box-sizing: border-box;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .arroba h3 {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .enlaces {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .acompañante,
+    .shape03,
+    .shape04 {
+        width: 25px;
+        height: 25px;
+    }
+    
+    * {
+        max-width: 100%;
+    }
 }
